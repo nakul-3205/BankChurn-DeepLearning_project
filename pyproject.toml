@@ -1,0 +1,22 @@
+[project]
+name = "bankchurn"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "nakulkejriwal@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn",
+    "tensorflow",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "tensorboard",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
