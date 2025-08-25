@@ -1,21 +1,21 @@
-[project]
+[tool.poetry]
 name = "bankchurn"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "nakulkejriwal@gmail.com"}
-]
+description = "Bank Churn Prediction Streamlit App"
+authors = ["nakulkejriwal@gmail.com"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "scikit-learn",
-    "tensorflow",
-    "matplotlib",
-    "numpy",
-    "pandas",
-    "tensorboard",
-]
+packages = [] 
+python = ">=3.12"
 
+[tool.poetry.dependencies]
+python = ">=3.12"
+scikit-learn = "*"
+tensorflow = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+tensorboard = "*"
+streamlit = "*"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
